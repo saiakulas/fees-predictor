@@ -1,0 +1,36 @@
+# 🚀 Ignore virtual environments
+venv/
+.env/
+.venv/
+env/
+*.pyc
+__pycache__/
+
+# 🚀 Ignore Python dependency files
+*.log
+*.sqlite3
+*.db
+*.pkl
+instance/
+config.py
+
+# 🚀 Ignore IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🚀 Ignore Flask dependencies
+Pipfile
+Pipfile.lock
+requirements.txt
+
+# 🚀 Ignore sensitive files
+.env
+.env.local
+secrets.json
+
+# 🚀 Ignore Flask cache & build files
+*.cache
+*.pytest_cache
+__pycache__/
